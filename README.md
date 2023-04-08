@@ -1,7 +1,7 @@
 # Multiplier
-A basic modules that takes in two inputs, which are in two's complement form, and multiplies
-them to produce the output. There is a data-valid signal (data_valid) which indicates that 
-the two inputs are valid.
+A basic module that takes in two inputs, which are in two's complement form, and multiplies
+them together to produce the output. There is a data-valid signal (data_valid) which indicates that 
+the two inputs (a and b) are valid.
 
 Parameters:
  - WIDTH_A: the width of input a
