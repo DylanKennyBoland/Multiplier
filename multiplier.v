@@ -21,9 +21,6 @@ module multiplier #
 	// ==== Internal Signals ====
 	reg [WIDTH_C-1:0] product_reg;
 	reg [WIDTH_C-1:0] product;
-	// Creating the signals below to improve readability
-	wire msb_a = a[WIDTH_A-1]; // the most-significant bit of input a
-	wire msb_b = b[WIDTH_B-1]; // the most significant bit of input b
 
 	// ==== Logic for the Multiplication ====
 	always @ (*) begin
